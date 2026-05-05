@@ -1,0 +1,23 @@
+{
+  "id": 16002074,
+  "name": "athousandcompany/company_1000",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "athousandcompany/company_1000",
+  "enforcement": "disabled",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    }
+  ],
+  "bypass_actors": []
+}
